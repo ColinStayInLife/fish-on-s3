@@ -1,0 +1,44 @@
+# Build / IDE
+.vscode/
+.idea/
+build/
+cmake-build-*/
+*.swp
+*.swo
+*~
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolib/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Arduino
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+
+# 3D files (too large)
+*.stl
+*.step
+*.stp
+hardware/3d/*.stl
+
+# SD card images / test data
+data/
+*.img
+*.iso
+
+# Credentials/config
+config.h
+credentials.h
+secrets.h
+*_config.h
